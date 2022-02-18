@@ -1,7 +1,6 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-		//Brute Force Solution TimeO(N^2) & Auxiliary Space O(1)
         int length=nums.size();
         for(int i=0;i<length;i++){
 			for(int j=i+1;j<length;j++){
